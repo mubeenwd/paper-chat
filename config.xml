@@ -11,19 +11,19 @@ Apache Cordova Team
 
 <preference name='phonegap-version' value='cli-5.1.1' />
 
-<!--
+
 <gap:plugin name="cordova-plugin-whitelist" source="npm" />
 <gap:plugin name="cordova-plugin-screen-orientation" source="npm" />
 <gap:plugin name="cordova-plugin-urlhandler" source="npm" />
 <gap:plugin name='org.crosswalk.engine' version='1.3.0' source='pgb' />
 <gap:plugin name='cordova-plugin-splashscreen' source='npm' />
--->
-<plugin name='cordova-plugin-whitelist' spec='1.0.0' source='npm' />
+
+<!--<plugin name='cordova-plugin-whitelist' spec='1.0.0' source='npm' />
 <plugin name='cordova-plugin-splashscreen' spec='2.1.0' source='npm' />
 <plugin name='cordova-plugin-media' spec='1.0.1' source='npm' />
 <plugin name='cordova-plugin-file' spec='3.0.0' source='npm' />
 <plugin name="cordova-plugin-crosswalk-webview" spec="1.3.0" source='npm' />
-
+-->
 <access origin="*" />
 <allow-intent href="http://*/*" />
 <allow-intent href="https://*/*" />
@@ -55,33 +55,5 @@ Apache Cordova Team
 <preference name="SplashScreenDelay" value="5000" />
 <preference name="AutoHideSplashScreen" value="false" />
 
-<platform name="browser">
-<preference name="SplashScreen" value="img/splash.jpg" /> <!-- defaults to "img/logo.png" -->
-<preference name="SplashScreenDelay" value="10000" /> <!-- defaults to "3000" -->
-<preference name="SplashScreenBackgroundColor" value="green" /> <!-- defaults to "#464646" -->
-<preference name="ShowSplashScreen" value="true" /> <!-- defaults to "true" -->
-<preference name="SplashScreenWidth" value="1024" /> <!-- defaults to "170" -->
-<preference name="SplashScreenHeight" value="678" /> <!-- defaults to "200" -->
-</platform> 
-
-<icon src="res/icon.png" />
-<platform name="android">
-<splash src="res/screen/Pl.9.png" density="port-ldpi" />
-<splash src="res/screen/Ll.9.png" density="land-ldpi" />
-<splash src="res/screen/Pm.9.png" density="port-mdpi" />
-<splash src="res/screen/Lm.9.png" density="land-mdpi" />
-<splash src="res/screen/Ph.9.png" density="port-hdpi" />
-<splash src="res/screen/Lh.9.png" density="land-hdpi" />
-<splash src="res/screen/Pxh.9.png" density="port-xhdpi" />
-<splash src="res/screen/Lxh.9.png" density="land-xhdpi" />
-<splash src="res/screen/Pxxh.9.png" density="port-xxhdpi" />
-<splash src="res/screen/Lxxh.9.png" density="land-xxhdpi" />
-</platform>
-<platform name="ios">
-<preference name="FadeSplashScreen" value="false" />
-<preference name="FadeSplashScreenDuration" value="4" />
-<preference name="ShowSplashScreenSpinner" value="false" />
-<splash src="res/screen/ios-1x.png" width="320" height="480" />
-<splash src="res/screen/ios-2x.png" width="640" height="960" />
 </platform>
 </widget>
